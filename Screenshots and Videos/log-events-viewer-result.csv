@@ -1,0 +1,19 @@
+timestamp,message
+1705422707024,"INIT_START Runtime Version: python:3.12.v16	Runtime Version ARN: arn:aws:lambda:eu-west-1::runtime:c9875014cbcc77e3455765804516f064d18fe7b27ae7bdb2b1d84ab01ba784f5
+"
+1705422707594,"START RequestId: 129b4464-f2c4-4f24-bd47-7e0c07245288 Version: $LATEST
+"
+1705422707595,"{'Records': [{'eventVersion': '2.1', 'eventSource': 'aws:s3', 'awsRegion': 'eu-west-1', 'eventTime': '2024-01-16T16:31:45.498Z', 'eventName': 'ObjectCreated:Put', 'userIdentity': {'principalId': 'AWS:AIDAV5BPTT3ZQBFKVPSYB'}, 'requestParameters': {'sourceIPAddress': '46.114.180.54'}, 'responseElements': {'x-amz-request-id': 'ZAEFGG14HY810S46', 'x-amz-id-2': 'JjlAErRDmiGRGUE/ELBQzxRGIbjjHBfyvqbGhHVGCiZYxBCn3c5tw0eXzPjZxNZ0A6eSDNsVonhOtugYaPgcR/4XztxDOe/5'}, 's3': {'s3SchemaVersion': '1.0', 'configurationId': '4b9efb5e-944c-4e05-ad6c-c683b3e1a258', 'bucket': {'name': 'yashvisitorsbucketgroup1', 'ownerIdentity': {'principalId': 'A2B6ZLECBPWJI1'}, 'arn': 'arn:aws:s3:::yashvisitorsbucketgroup1'}, 'object': {'key': 'narendra_modicopy.png', 'size': 825164, 'eTag': 'fb9bae7b57a5ce8afad5b0d128399c90', 'sequencer': '0065A6AF7167CA8331'}}}]}
+"
+1705422707595,"[{'eventVersion': '2.1', 'eventSource': 'aws:s3', 'awsRegion': 'eu-west-1', 'eventTime': '2024-01-16T16:31:45.498Z', 'eventName': 'ObjectCreated:Put', 'userIdentity': {'principalId': 'AWS:AIDAV5BPTT3ZQBFKVPSYB'}, 'requestParameters': {'sourceIPAddress': '46.114.180.54'}, 'responseElements': {'x-amz-request-id': 'ZAEFGG14HY810S46', 'x-amz-id-2': 'JjlAErRDmiGRGUE/ELBQzxRGIbjjHBfyvqbGhHVGCiZYxBCn3c5tw0eXzPjZxNZ0A6eSDNsVonhOtugYaPgcR/4XztxDOe/5'}, 's3': {'s3SchemaVersion': '1.0', 'configurationId': '4b9efb5e-944c-4e05-ad6c-c683b3e1a258', 'bucket': {'name': 'yashvisitorsbucketgroup1', 'ownerIdentity': {'principalId': 'A2B6ZLECBPWJI1'}, 'arn': 'arn:aws:s3:::yashvisitorsbucketgroup1'}, 'object': {'key': 'narendra_modicopy.png', 'size': 825164, 'eTag': 'fb9bae7b57a5ce8afad5b0d128399c90', 'sequencer': '0065A6AF7167CA8331'}}}]
+"
+1705422707595,"narendra_modicopy.png
+"
+1705422708203,"09056407-6769-48af-bc46-24cac5bb41e9 99.99840545654297
+"
+1705422708304,"Person found:  {'id': '09056407-6769-48af-bc46-24cac5bb41e9', 'firstName': 'Narendra', 'lastName': 'Modi'}
+"
+1705422708307,"END RequestId: 129b4464-f2c4-4f24-bd47-7e0c07245288
+"
+1705422708307,"REPORT RequestId: 129b4464-f2c4-4f24-bd47-7e0c07245288	Duration: 712.36 ms	Billed Duration: 713 ms	Memory Size: 500 MB	Max Memory Used: 91 MB	Init Duration: 569.70 ms	
+"
