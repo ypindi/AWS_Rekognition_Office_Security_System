@@ -1,0 +1,11 @@
+Resources:
+  S3BucketGroup1:
+    Type: 'AWS::S3::Bucket'
+    DeletionPolicy: Retain
+    Properties:
+      BucketName: yashemployeesbucketgroup1
+  S3Bucket2Group1:
+    Type: 'AWS::S3::Bucket'
+    DeletionPolicy: Retain
+    Properties:
+      BucketName: yashvisitorsbucketgroup1
