@@ -18,7 +18,7 @@ the visitor lambda function which calls AWS Rekogniton to check if the person is
 Then it will send the information about the person through AWS SNS (Simple Notification Service). If a person is not found,
 it will communicate the same again through AWS SNS.
 
-## 2 Front-end Website
+## 3 Front-end Website
 The entire front-end website is present in this repository. This front-end website is present for the visitors to upload their pictures. On uploading, AWS Rekognition decides whether they are
 employees or not based on the employee information in the DynamoDB database. The employee is then updated using the AWS SNS (Simple Notification Service) if they are an employee
 or not. You can find the entire code in the below link:
@@ -26,7 +26,7 @@ or not. You can find the entire code in the below link:
 https://github.com/ypindi/AWS_Rekognition_Office_Security_System/tree/main/Website
 ```
 
-## 3 Code
+## 4 Code
 The Code for implementation of the project is located here:
 1. Employee Lambda function for adding Employee into the AWS DynamoDB database
 2. Visitor Lambda function for using AWS Rekognition to check if the person is an employee or not
